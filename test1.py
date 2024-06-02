@@ -5,7 +5,6 @@ import matplotlib.pyplot as plt
 # 定义一个空列表来存储原子数据
 atoms = [[], [], []]
 file_names = ["water_273.trj", "water_300.trj", "water_400.trj"]
-
 # 打开数据文件
 for file_index, file_name in enumerate(file_names):
     with open(file_name, "r") as file:
